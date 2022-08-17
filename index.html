@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Puzzles Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/javascript.js"></script>
+</head>
+
+<body>
+
+    <!-- Showcase -->
+    <div class="main">
+        <div class="showcase" id="show-page">
+            <div class="title">
+                <h2>math puzzle</h2>
+            </div>
+            <!-- menu -->
+            <nav class="menu">
+                <a href="#" onclick="openMenu()">
+                    <svg id="svg" width='30' height='30'>
+                        <path d="M0,5 30,5" stroke='#fff' stroke-width='4' />
+                        <path d="M0,14 30,14" stroke='#fff' stroke-width='4' />
+                        <path d="M0,23 30,23" stroke='#fff' stroke-width='4' />
+                    </svg>
+                </a>
+            </nav>
+            <div id="side-menu" class="side-nav">
+                <img src="./img/left-arrow.png" alt="left arrow icon" onclick="location.reload()">
+                <img src="./img/color.png" alt="color icon" onclick="bg_color()">
+                <img src="./img/close.png" alt="close icon" onclick="closeMenu()">
+            </div>
+
+            <!-- time -->
+            <div class="time">
+                <p id="btn"></p>
+            </div>
+            <div class="buttons">
+                <div id="question-container" class="hide">
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 2</button>
+                        <button class="btn">Answer 3</button>
+                        <button class="btn">Answer 4</button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <img id="start-btn" class="start-btn" src="./img/start.png" alt="start icon">
+                    <button id="next-btn" class="next-btn btn hide">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="bubbles">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+            <img src="./img/bubble.png" alt="bubble icon">
+        </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loadding">
+        <small></small>
+        <small></small>
+        <small></small>
+    </div>
+</body>
+
+</html>
