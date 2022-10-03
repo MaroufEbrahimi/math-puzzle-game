@@ -15,5 +15,5 @@ I'm exited to share this math-puzzle-game with you and you have any feedback [**
 
 
 # Would you like to help and support me?
-* Star and follow my Github repository
+* Star this project and follow my Github repository
 ...
