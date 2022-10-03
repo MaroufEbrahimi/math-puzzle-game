@@ -8,6 +8,8 @@ I'm exited to share this math-puzzle-game with you and you have any feedback [**
 * loading animation
 * background animation
 * using SVG
+* random background-color
+* bubble move
 
 
 
